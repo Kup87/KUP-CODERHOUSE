@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kup Entrenamientos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="Home">
+        <img src="assets\Logo.png" alt="Logo" class="Logo" id="Logo">
+        <nav class="nav_container">
+            <div class="buger-ico"><img src="assets\ico\bx-menui.png" alt="bx-menui"></div>
+            <a href="index.html">Home</a>
+            <div class="nav_dropdown">
+                <button class="dropbtn">Blog<img src="assets\ico\chevron-down.svg" alt="" class="svg"></button>
+                <div class="nav_dropdown_content">
+                    <a href="#Home">Artículos</a>
+                    <a href="#Tips">Tips</a>
+                    <a href="#Videos">Videos</a>
+                </div>
+            </div>
+            <div class="nav_dropdown">
+                <button class="dropbtn">Nosotros<img src="assets\ico\chevron-down.svg" alt="" class="svg"></button>
+                <div class="nav_dropdown_content">
+                    <a href="index.html#Servicios">Planes</a>
+                    <a href="index.html#SobreMi">Sobre Mi</a>
+                </div>
+            </div>
+            <a href="contacto.html">Contacto</a>
+            <img src="assets\ico\search.svg" alt="" class="svg" id="searchsvg">
+            <input type="search" id="site-search" class="search">
+        </nav>
+    </header>
+    <main>
+        <section class="articulos">
+            <div class="articulos_container">
+                <h1 class="h1home h1Articulos"> Artículos <img src="assets\ico\search.svg" alt="" class="svg"
+                        id="searchsvg"></h1>
+                <div class="galeria_container">
+                    <a href="">
+                        <div class="cuadro">
+                            <img src="assets\img\gal1.jpg" alt="" class="gal_img">
+                            <div class="pie">
+                                <h3 class="img_title">Foto1</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="cuadro">
+                            <img src="assets\img\gal2.jpg" alt="" class="gal_img">
+                            <div class="pie">
+                                <h3 class="img_title">Foto2</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="cuadro">
+                            <img src="assets\img\gal3.jpg" alt="" class="gal_img">
+                            <div class="pie">
+                                <h3 class="img_title">Foto3</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="tips" id="Tips">
+            <div class="tips_container">
+                <h1 class="h1home h1tips"> Tips <img src="assets\ico\search.svg" alt="" class="svg" id="searchsvg"></h1>
+                <div class="tipsgal_container">
+                    <a href="">
+                        <div class="tip">
+                            <img src="assets\img\tip1.jpg" alt="" class="tip_img">
+                            <div class="pie">
+
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed necessitatibus ut neque
+                                    cupiditate minus voluptatem esse, quas consectetur. A neque, vel perferendis vitae
+                                    dolores eum adipisci pariatur fugiat quam fuga.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="tip">
+                            <img src="assets\img\tip2.jpg" alt="" class="tip_img">
+                            <div class="pie">
+
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed necessitatibus ut neque
+                                    cupiditate minus voluptatem esse, quas consectetur. A neque, vel perferendis vitae
+                                    dolores eum adipisci pariatur fugiat quam fuga.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="tip">
+                            <img src="assets\img\tip3.jpg" alt="" class="tip_img">
+                            <div class="pie">
+
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed necessitatibus ut neque
+                                    cupiditate minus voluptatem esse, quas consectetur. A neque, vel perferendis vitae
+                                    dolores eum adipisci pariatur fugiat quam fuga.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="tip">
+                            <img src="assets\img\tip4.jpg" alt="" class="tip_img">
+                            <div class="pie">
+
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed necessitatibus ut neque
+                                    cupiditate minus voluptatem esse, quas consectetur. A neque, vel perferendis vitae
+                                    dolores eum adipisci pariatur fugiat quam fuga.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="searchtip"><img src="assets\ico\search.svg" alt=""><input type="search"></div>
+        </section>
+        <section class="videos" id="Videos">
+            <h1 class="h1home h1videos"> Videos <img src="assets\ico\search.svg" alt="" class="svg" id="searchsvg"></h1>
+            <div class="videos_container">
+
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/2ah0JcTmCuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <div class="videolist"></div>
+        </div>
+
+
+        </section>
+
+
+
+    </main>
+    <footer>
+        <img src="assets\Logo.png" alt="Logo" class="Logo logoFooter" id="Logo">
+        <a href="facebook.com">
+            <div class="socialMediaIcon_container"><img src="assets\ico\Icon awesome-facebook.png" alt="" class="svg">
+            </div>
+        </a>
+        <a href="instagram.com">
+            <div class="socialMediaIcon_container"><img src="assets\ico\Icon feather-instagram.png" alt="" class="svg">
+            </div>
+        </a>
+        <a href="#Home"><img src="assets/ico/chevron-up.svg" alt=""></a>
+
+
+
+    </footer>
+
+</body>
+
+</html>
