@@ -355,6 +355,11 @@ footer {
   text-align: center;
 }
 
+.videos_container {
+  display: flex;
+  justify-content: space-around;
+}
+
 .videos {
   background-color: var(--Negro);
   background-size: cover;
@@ -370,7 +375,7 @@ footer {
  .videolist {
    background-color: var(--Gris);
    width: 250px;
-   height: 600px;
+   height: 500px;
    overflow-y: scroll;
  }
 
