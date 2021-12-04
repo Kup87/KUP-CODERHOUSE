@@ -24,6 +24,10 @@
   text-decoration: none;
 }
 
+.buger-ico {
+  display: none;
+}
+
  .Logo {
     position: absolute;
     width: 150px;
@@ -168,10 +172,10 @@
    overflow-x: auto;
 }
 
-  .galeria_container a{
-    color: var(--Blanco);
-    margin: 20px;
-  }
+.galeria_container a{
+  color: var(--Blanco);
+  margin: 20px;
+}
 
 
  .gal_img {
@@ -267,8 +271,11 @@
 .miTitle { grid-area: 1 / 1 / 2 / 7; }
 
 .sobremi-p { grid-area: 2 / 1 / 4 / 5;
-  margin: 15px;
   font-size: 1.1rem;
+  inline-size: 75%;
+  align-self: center;
+  justify-self: center;
+
 }
 .portrait1 { grid-area: 2 / 5 / 5 / 7;
   max-width: 100%;
@@ -331,8 +338,13 @@ footer {
   background-image: url(assets/img/tipsbackground.jpg);
   background-size: cover;
   background-repeat: no-repeat;     
-  height: 500px;
+  height: max-content;
+  padding: 12px;
   overflow: hidden;
+ }
+
+ .tip {
+   text-align: center;
  }
 
  .tips_container {
@@ -369,7 +381,8 @@ footer {
   background-color: var(--Negro);
   background-size: cover;
   background-repeat: no-repeat;     
-  height: 700px;
+  height: max-content;
+  padding: 10px;
   overflow: hidden;
 }
 
@@ -471,3 +484,61 @@ footer {
 #mensaje_contacto {
    resize: none;
  }
+
+ @media (max-width: 768px) {
+  .wrapHide {
+    display: none;
+  }
+  .buger-ico {
+    display: block;
+    margin-right: 20px;
+  }
+
+  .h1home {
+    margin-top: 60px;
+  }
+
+  .h3homeGreet {
+    font: 1.17em bold
+  }
+
+  .nosotros_container {
+    display: block;
+    height: inherit;
+  }
+  .sobreMi_container {
+    display: block;
+    width: inherit;
+  }
+
+  .sobremi-p {
+    inline-size: 100%;
+  }
+
+  .h1tips {
+    margin: 10px;
+  }
+
+  .tips {
+    height: inherit;
+  }
+
+  .tipsgal_container {
+    overflow-x: scroll;
+  }
+
+.tipsgal_container > * {
+  padding: 10px;
+}
+
+.videolist {
+  display: none;
+ }
+
+.contact-body {
+  margin: auto;
+  width: fit-content;
+}
+ 
+}
+
