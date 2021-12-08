@@ -181,6 +181,16 @@
  .gal_img {
   width: 300px;
   height: 300px;
+  
+}
+
+@keyframes GaleriaRtoL {
+  from {
+    margin-left: 1000px;
+  }
+  to {
+    margin-left: 0;
+  }
 }
 
 .nosotros {
@@ -702,10 +712,6 @@ footer {
   width: 95%;
   height: 300px;
 }
-
-
-
-
 
 }
 
