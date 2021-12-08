@@ -181,7 +181,7 @@
  .gal_img {
   width: 300px;
   height: 300px;
-  
+  animation: GaleriaRtoL 3s;
 }
 
 @keyframes GaleriaRtoL {
