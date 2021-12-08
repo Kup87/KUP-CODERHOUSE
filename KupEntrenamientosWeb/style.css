@@ -424,6 +424,7 @@ footer {
   height: max-content;
   margin: auto;
   margin-top: 2vw;
+  margin-bottom: 2vw;
   display: flex;
   border-radius: 8%;
   overflow: hidden;
@@ -496,7 +497,36 @@ footer {
    resize: none;
  }
 
+
+
+
  @media (max-width: 768px) {
+  .active {
+  position: absolute;
+  display: flex !important;
+  flex-direction: column;
+  overflow: visible;
+  top: 90px;
+  bottom: 0;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: flex-end;
+  background: black;
+}
+
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--Gris);
+    opacity: .5;
+      }
+
   .wrapHide {
     display: none;
   }
