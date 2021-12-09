@@ -22,6 +22,7 @@
 
  a {
   text-decoration: none;
+  
 }
 
 .buger-ico {
@@ -182,6 +183,10 @@
   width: 300px;
   height: 300px;
  /* animation: GaleriaRtoL 3s; */
+}
+
+.gal_img_f1 {
+  height: inherit;
 }
 
 @keyframes GaleriaRtoL {
