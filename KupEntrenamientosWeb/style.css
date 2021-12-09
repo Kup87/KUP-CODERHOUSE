@@ -178,10 +178,10 @@
 }
 
 
- .gal_img {
+.gal_img {
   width: 300px;
   height: 300px;
-  animation: GaleriaRtoL 3s;
+ /* animation: GaleriaRtoL 3s; */
 }
 
 @keyframes GaleriaRtoL {
@@ -486,7 +486,6 @@ footer {
 
 .c_send:hover {
   background: radial-gradient(var(--Naranja), rgb(235, 152, 58));
-  
 }
 
 .c_send:active {
@@ -537,6 +536,10 @@ footer {
 
   .h1home {
     margin-top: 60px;
+  }
+
+  .h1Articulos{ 
+    margin-top: 0;
   }
 
   .h3homeGreet {
