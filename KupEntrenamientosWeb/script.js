@@ -22,9 +22,9 @@ window.addEventListener('scroll', function(){
     let gal_img = document.getElementsByClassName("gal_img");
     let marca = document.getElementById("gal_img_animation");
     let position = marca.getBoundingClientRect().top;
-    console.log(position);
+   //console.log(position);
     let windowSize = window.innerHeight;
-    console.log(windowSize);
+   //console.log(windowSize);
     
     if (position < windowSize){
         for ( var i = 0; i < gal_img.length; i++){
