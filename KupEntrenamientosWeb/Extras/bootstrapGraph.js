@@ -51,15 +51,6 @@ const myChartVO2Máx = new Chart (graphVO2MAX, configVO2MAX);
 const graphKgBcoPlano = document.getElementById("graphKgBcoPlano").getContext("2d");
 //let v1 = parseFloat(prompt("")); //Formas de pedir los datos
 
-/*const labels = [
-    "mes 1",
-    "mes 2",
-    "mes 3",
-    "mes 4",
-    "mes 5",
-    "mes 6",
-]; */
-
 const dataKgBcoPlano = {
     labels,
     datasets: [{
@@ -96,3 +87,4 @@ const configKgBcoPlano = {
 }
 
 const myChartKgBcoPlano = new Chart (graphKgBcoPlano, configKgBcoPlano);
+
