@@ -17,34 +17,35 @@
 </head>
 
 <body>
-    <header id="Home">
+    <header class="header" id="Home">
+
         <div class="overlay"></div>
-        <img src="assets\Logo.png" alt="Logo" class="Logo" id="Logo">
+        <img src="assets\Logo.png" alt="Logo" class="Logo header__logo" id="Logo">
 
-        <nav class="nav_container">
+        <nav class="nav__container">
 
-            <div class="buger-ico navbar-toggler"><img src="assets\ico\bx-menui.png" alt="bx-menui"></div>
+            <div class="nav__bugerIco__container navbar-toggler"><img class="nav__bugerIco" src="assets\ico\bx-menui.png" alt="bx-menui"></div>
             <div class="wrapHide main-navigation">
 
                 <a href="#Home">Home</a>
-                <div class="nav_dropdown">
-                    <button class="dropbtn">Blog<img src="assets\ico\chevron-down.svg" alt="" class="svgf"></button>
-                    <div class="nav_dropdown_content">
-                        <a href="articulos.html">Artículos</a>
-                        <a href="articulos.html#Tips">Tips</a>
-                        <a href="articulos.html#Videos">Videos</a>
+                <div class="nav__dropdown">
+                    <button class="nav__dropdown__btn">Blog<img src="assets\ico\chevron-down.svg" alt="" class="nav__dropdown__svg"></button>
+                    <div class="nav__dropdown__content">
+                        <a class="nav__a" href="articulos.html">Artículos</a>
+                        <a class="nav__a" href="articulos.html#Tips">Tips</a>
+                        <a class="nav__a" href="articulos.html#Videos">Videos</a>
                     </div>
                 </div>
-                <div class="nav_dropdown">
-                    <button class="dropbtn">Nosotros<img src="assets\ico\chevron-down.svg" alt="" class="svgf"></button>
-                    <div class="nav_dropdown_content">
-                        <a href="#Servicios">Planes</a>
-                        <a href="#SobreMi">Sobre Mi</a>
+                <div class="nav__dropdown">
+                    <button class="nav__dropdown__btn">Nosotros<img src="assets\ico\chevron-down.svg" alt="" class="nav__dropdown__svg"></button>
+                    <div class="nav__dropdown__content">
+                        <a class="nav__a" href="#Servicios">Planes</a>
+                        <a class="nav__a" href="#SobreMi">Sobre Mi</a>
                     </div>
                 </div>
-                <a href="contacto.html">Contacto</a>
-                <img src="assets\ico\search.svg" alt="" class="svgf navsearchsvg" id="searchsvg">
-                <input type="search" id="site-search" class="search">
+                <a class="nav__a" href="contacto.html">Contacto</a>
+                <img src="assets\ico\search.svg" alt="" class="nav__svg navsearchsvg" id="searchsvg">
+                <input type="search" id="site-search" class="nav__search">
             </div>
         </nav>
 
