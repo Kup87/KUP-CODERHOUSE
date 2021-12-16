@@ -11,23 +11,79 @@
     <title>Bootstrap Graph - Futuras Planificaciones</title>
 </head>
 
-<body class="bg-dark p-5">
-    <h1 class="text-center text-white">Progreso 2 Meso Trimestral de ${Alumno}</h1>
+<body class="bg-dark">
 
-    <div class="row">
-        <div class="col-12 col-md-10 offset-md-2 offset-lg-0 h-100 mx-auto">
-            <div class="chart bg-light mt-3 mb-3">
-                <canvas id="graphVO2MAX"></canvas>
+    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+        <h2 class="text-white text-center header__title">Progreso 2 Meso Trimestral de ${Alumno}</h2>
+
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-nav">
+            <div class="nav-item text-nowrap">
+                <a class="nav-link px-3" href="#">Sign out</a>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-12 col-md-10 offset-md-2 offset-lg-0 h-100 mx-auto">
-            <div class="chart bg-light mt-3 mb-3">
-                <canvas id="graphKgBcoPlano"></canvas>
+    </header>
+    
+        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-dark sidebar collapse sticky-top position-fixed">
+            <div class="pt-3">
+                <img src="../assets/Logo.png" alt="Logo" class="col-4 w-25 m-3 header__logo ">
+
+                <div class="menu__checkbox__container text-white m-3">
+                    <input type="checkbox" name="cb1" class="menu__cb cb1" id="cb1">
+                    <label for="cb1">VO2MÁX</label>
+                </div>
+                <div class="menu__checkbox__container text-white m-3">
+                    <input type="checkbox" name="cb2" class="menu__cb cb2" id="cb2">
+                    <label for="cb2">Bco Plano</label>
+                </div>
+                <div class="menu__checkbox__container text-white m-3">
+                    <input type="checkbox" name="cb3" class="menu__cb cb3" id="cb3">
+                    <label for="cb3">Gráfico 3</label>
+                </div>
+                <div class="menu__checkbox__container text-white m-3">
+                    <input type="checkbox" name="cb4" class="menu__cb cb4" id="cb4">
+                    <label for="cb4">Gráfico 4</label>
+                </div>
+
             </div>
-        </div>
+        </nav>
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <div
+                class="d-flex justify-content-center flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-10 offset-md-2 offset-lg-0 h-100 mx-auto">
+                    <div class="chart bg-light mt-3 mb-3">
+                        <canvas id="graphVO2MAX"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-10 offset-md-2 offset-lg-0 h-100 mx-auto">
+                    <div class="chart bg-light mt-3 mb-3">
+                        <canvas id="graphKgBcoPlano"></canvas>
+                    </div>
+                </div>
+            </div>
+        </main>
+   
     </div>
+
+
+
+
+
+
+
+
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.2/chart.min.js"
         integrity="sha512-tMabqarPtykgDtdtSqCL3uLVM0gS1ZkUAVhRFu1vSEFgvB73niFQWJuvviDyBGBH22Lcau4rHB5p2K2T0Xvr6Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
