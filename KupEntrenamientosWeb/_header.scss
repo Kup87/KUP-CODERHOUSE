@@ -1,0 +1,106 @@
+header {
+    background-color: var(--Negro);
+
+    .Logo {
+        position: absolute;
+        width: 150px;
+        margin: 30px;
+    }
+
+    .nav_container {
+        align-items: end;
+        height: 100px;
+        display: flex;
+        justify-content: right;
+        overflow: hidden;
+        background-color: var(--Negro);
+
+        .nav__bugerIco {
+            display: none;
+            margin-bottom: 15px;
+        }
+
+        .nav__dropdown {
+            float: left;
+            overflow: hidden;
+            font-size: 16px;  
+            border: none;
+            outline: none;
+            color: var(--Blanco);
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+
+            &__btn {
+                display: flex;
+                align-items: center;
+                font-size: 16px;  
+                border: none;
+                outline: none;
+                color: var(--Blanco);
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+                background-color: var(--Gris);
+            }
+
+            &__svg {
+                filter: invert(82%) sepia(2%) saturate(0%) hue-rotate(32deg) brightness(95%) contrast(91%);
+            }
+
+            &__content {
+                display: none;
+                position: absolute;
+                background-color: var(--Gris);
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                
+
+                a {
+                    float: left;
+                    font-size: 16px;
+                    color: var(--Blanco);
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    background-color: var(--Gris);
+                }
+              }
+        }
+
+        .nav__dropdown:hover {
+            background-color: var(--Gris);
+            display: block;
+        }       
+
+        .search {
+            background-color: var(--Negro);
+            border: none;
+            border-bottom: 1px solid var(--Naranja);
+            margin: 10px; 
+            margin-bottom: 18px;
+        }
+
+        .nav__searchsvg {
+            margin-bottom: 20px;
+            
+        }
+
+       
+    
+    }
+
+    
+
+    
+
+    
+
+
+ }
