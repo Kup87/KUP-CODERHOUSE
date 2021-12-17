@@ -36,8 +36,6 @@
     margin: 30px;
  }
 
- 
-
  .nav__dropdown__btn {
    display: flex;
    align-items: center;
@@ -46,8 +44,6 @@
  .nav__dropdown__svg {
     filter: invert(82%) sepia(2%) saturate(0%) hue-rotate(32deg) brightness(95%) contrast(91%);
  }
-
- 
 
  .nav__container {
     align-items: end;
@@ -113,7 +109,7 @@
     display: block;
   }
 
-  .search {
+  .nav__search {
     background-color: var(--Negro);
     border: none;
     border-bottom: 1px solid var(--Naranja);
