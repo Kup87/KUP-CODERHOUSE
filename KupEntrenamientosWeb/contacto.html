@@ -20,34 +20,40 @@
 </head>
 
 <body class="contact-body">
-    <header id="Home">
+    <header class="header sticky-top" id="Home">
+
         <div class="overlay"></div>
-        <img src="assets\Logo.png" alt="Logo" class="Logo" id="Logo">
 
-        <nav class="nav_container">
+        <img src="assets\Logo.png" alt="Logo" class="Logo header__Logo" id="Logo">
 
-            <div class="buger-ico navbar-toggler"><img src="assets\ico\bx-menui.png" alt="bx-menui"></div>
+        <nav class="nav__container">
+
+            <div class="nav__bugerIco__container navbar-toggler">
+                <img class="nav__bugerIco" src="assets\ico\bx-menui.png" alt="bx-menui">
+            </div>
             <div class="wrapHide main-navigation">
 
                 <a href="index.html">Home</a>
-                <div class="nav_dropdown">
-                    <button class="dropbtn">Blog<img src="assets\ico\chevron-down.svg" alt="" class="svgf"></button>
-                    <div class="nav_dropdown_content">
-                        <a href="articulos.html">Artículos</a>
-                        <a href="articulos.html#Tips">Tips</a>
-                        <a href="articulos.html#Videos">Videos</a>
+                <div class="nav__dropdown">
+                    <button class="nav__dropdown__btn">Blog<img src="assets\ico\chevron-down.svg" alt="" class="nav__dropdown__svg"></button>
+                    <div class="nav__dropdown__content">
+                        <a class="nav__a" href="articulos.html">Artículos</a>
+                        <a class="nav__a" href="articulos.html#Tips">Tips</a>
+                        <a class="nav__a" href="articulos.html#Videos">Videos</a>
                     </div>
                 </div>
-                <div class="nav_dropdown">
-                    <button class="dropbtn">Nosotros<img src="assets\ico\chevron-down.svg" alt="" class="svgf"></button>
-                    <div class="nav_dropdown_content">
-                        <a href="index.html#Servicios">Planes</a>
-                        <a href="index.html#SobreMi">Sobre Mi</a>
+                <div class="nav__dropdown">
+                    <button class="nav__dropdown__btn">Nosotros<img src="assets\ico\chevron-down.svg" alt="" class="nav__dropdown__svg"></button>
+                    <div class="nav__dropdown__content">
+                        <a class="nav__a" href="index.html#Servicios">Planes</a>
+                        <a class="nav__a" href="index.html#SobreMi">Sobre Mi</a>
                     </div>
                 </div>
-                <a href="#Home">Contacto</a>
-                <img src="assets\ico\search.svg" alt="" class="svgf navsearchsvg" id="searchsvg">
-                <input type="search" id="site-search" class="search">
+                <a class="nav__a" href="#Home">Contacto</a>
+
+                <img src="assets\ico\search.svg" alt="" class="nav__svg nav__searchsvg" id="searchsvg">
+
+                <input type="search" id="site-search" class="nav__search">
             </div>
         </nav>
 
@@ -62,11 +68,11 @@
                     <span>Info de Contacto</span>
                 </div>
                 <div class="app-contact">
-                    <a href="facebook.com">
+                    <a href="https://www.facebook.com/KupEntrenamientos/">
                         <div class="socialMediaIcon_container"><img src="assets\ico\Icon awesome-facebook.png" alt=""
                                 class="svg"></div>
                     </a>
-                    <a href="instagram.com">
+                    <a href="https://www.instagram.com/kup.entrenamientos/">
                         <div class="socialMediaIcon_container"><img src="assets\ico\Icon feather-instagram.png" alt=""
                                 class="svg"></div>
                     </a>

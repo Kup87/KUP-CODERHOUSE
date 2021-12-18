@@ -1,0 +1,61 @@
+.sobreMi {
+    background-color: var(--Gris2);
+    color: var(--Blanco);
+    overflow: hidden;
+    padding: 15px;
+    
+   }
+  
+   .sobreMi_container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: .5fr 1fr 1fr 1fr .5fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 90%;
+  }
+  
+  .miTitle { grid-area: 1 / 1 / 2 / 7; }
+  
+  .sobremi-p { grid-area: 2 / 1 / 4 / 5;
+    font-size: 1.1rem;
+    inline-size: 75%;
+    align-self: center;
+    justify-self: center;
+  
+  }
+  .portrait1 { grid-area: 2 / 5 / 5 / 7; }
+  .sobremi-ul1 { grid-area: 4 / 1 / 6 / 3; }
+  .sobremi-ul2 { grid-area: 4 / 3 / 6 / 5; }
+  .portrait1_img {
+    max-width: 100%;
+  }
+  
+  
+  ul {
+    display:inline-block;
+    padding:0.5em;
+    padding-left:2em;
+    margin:0.5em; 
+  }
+  
+  .sobremiul {
+    list-style:none;
+  }
+  .sobremiul > li {
+    clear:left;
+  }
+  
+  ul.sobremiul > li:before{
+    content:"";
+    height:1em;
+    width:1em;
+    display:block;
+    float:left;
+    margin-left:-1.5em;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-image:url(assets/ico/check-lg.svg);
+    filter: invert(73%) sepia(44%) saturate(7463%) hue-rotate(344deg) brightness(99%) contrast(92%);
+  }
