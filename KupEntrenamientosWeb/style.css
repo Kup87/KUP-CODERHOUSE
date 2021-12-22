@@ -151,7 +151,7 @@
   }
 
   .h3home {
-   font: 30px bold;
+   font: 1.5em bold;
    color: var(--Blanco);
    margin: 20px;
   }
@@ -498,7 +498,7 @@ footer {
 }
 
 #mensaje_contacto {
-   resize: none;
+  resize: none;
  }
 
 
@@ -506,16 +506,16 @@ footer {
 
  @media (max-width: 768px) {
   .active {
-  position: absolute;
-  display: flex !important;
-  flex-direction: column;
-  overflow: visible;
-  top: 90px;
-  align-content: space-around;
-  justify-content: space-around;
-  align-items: flex-end;
-  background: black;
-}
+    position: absolute;
+    display: flex !important;
+    flex-direction: column;
+    overflow: visible;
+    top: 90px;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: black;
+  }
 
   .overlay {
     display: none;
@@ -576,13 +576,17 @@ footer {
     overflow-x: scroll;
   }
 
-.tipsgal_container > * {
-  padding: 10px;
-}
+  .tipsgal_container > * {
+    padding: 10px;
+  }
 
-.videolist {
-  display: none;
- }
+  .videolist {
+    display: none;
+  }
+
+  .contact-body {
+    width: fit-content;
+  }
 
 
  
