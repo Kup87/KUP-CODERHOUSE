@@ -599,9 +599,9 @@ footer {
 
 .c_input {
   margin: 10px 10px 10px 0px;
-  width: 100%;
   padding: 15px;
   background-color: rgba(194, 194, 194, 0.4);
+  width: 100%;
   border: none;
 }
 
@@ -615,6 +615,7 @@ footer {
 
 .c_btn {
   width: 100%;
+  border: none;
 }
 
 .c_send {

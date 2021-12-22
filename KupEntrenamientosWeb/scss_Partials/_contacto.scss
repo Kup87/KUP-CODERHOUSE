@@ -1,8 +1,14 @@
-.contact-title {
+@mixin widthandborder {
+  width: 100%;
+  border: none;  
+}
+
+
+  .contact-title {
     margin-top: 40px;
     font-weight: 900;
     font-size: 40px;
-   }
+  }
   
    .whole-wrap-contact {
     background: linear-gradient(rgba(243, 115, 42, .75),rgba(243, 115, 42, .75)), url(assets/img/contactbackground.jpg);
@@ -44,10 +50,9 @@
    
    .c_input {
     margin: 10px 10px 10px 0px;
-    width: 100%;
     padding: 15px;
     background-color: rgba(194, 194, 194, .4);
-    border: none;
+    @include widthandborder();
    }
   
    .socialMediaIcon_container {
@@ -59,7 +64,7 @@
    }
   
    .c_btn {
-    width: 100%;
+    @include widthandborder();
   }
   
   .c_send {  
