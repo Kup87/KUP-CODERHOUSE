@@ -3,11 +3,16 @@
   border: none;  
 }
 
+%contacttitle {
+  margin-top: 40px;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+
 
   .contact-title {
-    margin-top: 40px;
-    font-weight: 900;
-    font-size: 40px;
+    @extend %contacttitle;
   }
   
    .whole-wrap-contact {
@@ -25,20 +30,18 @@
    }
   
    .contact-body {
-     background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
    }
   
    .info_c {
-     color: var(--Blanco);
-     border: 45px solid transparent;
-     color: var(--Gris1);
+    border: 45px solid transparent;
    }
   
    .info_c_title {
-     font-size: 1.2rem;
-     font-weight: 900;
-     white-space: nowrap;
-     color: var(--Blanco);
+    font-size: 1.2rem;
+    font-weight: 900;
+    white-space: nowrap;
+    color: var(--Blanco);
    }
   
    .c_form {
@@ -86,5 +89,5 @@
   }
   
   #mensaje_contacto {
-     resize: none;
-   }
+    resize: none;
+  }

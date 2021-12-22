@@ -578,9 +578,7 @@ footer {
 }
 
 .info_c {
-  color: var(--Blanco);
   border: 45px solid transparent;
-  color: var(--Gris1);
 }
 
 .info_c_title {
