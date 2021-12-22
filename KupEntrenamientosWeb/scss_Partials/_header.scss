@@ -1,5 +1,18 @@
+$colors: (
+      Naranja: rgb(243, 115, 42),
+      Blanco: #ffffff,
+      Negro: #000000,
+      Gris: #313131,
+      Gris2: #1D1C1C,
+     );
+
+     $Naranja: map-get($colors, $key: Naranja);
+     $Blanco: map-get($colors, $key: Blanco);
+     $Negro: map-get($colors, $key: Negro);
+     $Gris: map-get($colors, $key: Gris);
+     
 header {
-    background-color: var(--Negro);
+    background-color: $Negro;
 
 }
 
@@ -15,13 +28,13 @@ header {
         display: flex;
         justify-content: right;
         overflow: hidden;
-        background-color: var(--Negro);
+        background-color: $Negro;
     }
 
     .nav__container a {
         float: left;
         font-size: 16px;
-        color: var(--Blanco);
+        color: $Blanco;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -37,9 +50,9 @@ header {
     }
 
     .nav__search {
-        background-color: var(--Negro);
+        background-color: $Negro;
         border: none;
-        border-bottom: 1px solid var(--Naranja);
+        border-bottom: 1px solid $Naranja;
         margin: 10px; 
         margin-bottom: 18px;
       }
@@ -56,14 +69,14 @@ header {
     }
 
     .nav__container a:hover, .nav__dropdown:hover .nav__dropdown__btn {
-        background-color: var(--Gris);
+        background-color: $Gris;
     }
 
     .nav__dropdown .nav__dropdown__btn {
         font-size: 16px;  
         border: none;
         outline: none;
-        color: var(--Blanco);
+        color: $Blanco;
         padding: 14px 16px;
         background-color: inherit;
         font-family: inherit;
@@ -73,7 +86,7 @@ header {
     .nav__dropdown__content {
         display: none;
         position: absolute;
-        background-color: var(--Gris);
+        background-color: $Gris;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
@@ -81,7 +94,7 @@ header {
 
     .nav__dropdown__content a {
         float: none;
-        color: var(--Blanco);
+        color: $Blanco;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
@@ -89,7 +102,7 @@ header {
     }
 
     .nav__dropdown__content a:hover {
-        background-color: var(--Gris);
+        background-color: $Gris;
     }
 
     .nav__dropdown:hover .nav__dropdown__content {
