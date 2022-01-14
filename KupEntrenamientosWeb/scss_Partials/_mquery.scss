@@ -1,0 +1,249 @@
+@media (max-width: 768px) {
+  .active {
+    position: absolute;
+    display: flex !important;
+    flex-direction: column;
+    overflow: visible;
+    top: 90px;
+    bottom: 0;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: black;
+  }
+  
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--Gris);
+    opacity: .5;
+  }
+  
+  .wrapHide {
+    display: none;
+  }
+  
+  .nav__bugerIco {
+    display: block;
+     margin-right: 20px;
+  }
+  
+    .h1home {
+      margin-top: 60px;
+    }
+  
+    .h1Articulos{ 
+      margin-top: 0;
+    }
+  
+    .h3homeGreet {
+      font: 1.17em bold
+    }
+  
+    .nosotros_container {
+      display: block;
+      height: inherit;
+    }
+    .sobreMi_container {
+      display: block;
+      width: inherit;
+    }
+  
+    .sobremi-p {
+      inline-size: 100%;
+    }
+  
+    .h1tips {
+      margin: 10px;
+    }
+  
+    .tips {
+      height: inherit;
+    }
+  
+    .tipsgal_container {
+      overflow-x: scroll;
+    }
+  
+  .tipsgal_container > * {
+    padding: 10px;
+  }
+  
+  .videolist {
+    display: none;
+   }
+  
+  
+   
+  }
+  
+  @media (min-width: 1800px) and (max-width: 2800px) {
+  
+    .nav__container {
+      height: 150px;
+    }
+  
+    .nav__container a{
+      font-size: 3em;
+    }
+  
+    .Logo {
+      width: 15em;
+    }
+  
+    .wrapHide > a {
+      font-size: 3em;
+    }
+    .nav__dropdown__btn {
+      font-size: 3em !important;
+    }
+  
+    .nav__searchsvg {
+      width: 2em;
+    }
+  
+    .h1home {
+      font: 5em bold;
+    }
+    .svgArt {
+      width: .5em !important;
+    }
+  
+    .galeria_container {
+      justify-content: space-around;
+    }
+  
+    .servicioST {
+      font-size: 2.3em;
+    }
+  
+    .servicioP, .sobremiul, .sobremi-p, .nombreynick {
+      font-size: 1.3em;
+    }
+  
+    .socialMediaIcon_container img {
+      height: inherit;
+  }
+  
+  .svgTip {
+    width: 2em;
+  }
+  
+   .info_c_title, .c_input, .c_send {
+     font-size: 2em;
+   }
+    
+  }
+  
+  @media (min-width: 2801px) {
+  
+    .nav__container {
+      height: 150px;
+    }
+  
+    .nav__container a{
+      font-size: 3em;
+    }
+  
+    .Logo {
+      width: 15em;
+    }
+  
+    .wrapHide > a {
+      font-size: 3em;
+    }
+    .nav__dropdown__btn {
+      font-size: 3em !important;
+    }
+  
+    .nav__searchsvg {
+      width: 2em;
+    }
+  
+    .h1home {
+      font: 6em bold;
+    }
+  
+    .h3home {
+      font: 4em bold;
+    }
+  
+    .greet_container {
+      margin: auto;
+    }
+    .svgArt {
+      width: .5em !important;
+    }
+  
+    .galeria_container {
+      justify-content: space-around;
+    }
+  
+    .servicioST {
+      font-size: 4em;
+    }
+  
+    .servicioP, .sobremiul, .sobremi-p, .nombreynick {
+      font-size: 2em;
+    }
+  
+    .nosotros_container {
+      height: inherit;
+    }
+  
+    .number_container {
+      width: 9rem;
+      height: 9rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .number {
+      font-size: 4.5em;
+    }
+  
+    .socialMediaIcon_container img {
+    height: 6em;
+    margin: 2em;
+    }  
+    
+  .svgTip {
+    width: 2em;
+  }
+  
+   .info_c_title, .c_input, .c_send {
+     font-size: 4em;
+   }
+     
+  .nosotros_img_container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tipsgal_container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .videos_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .videolist {
+    width: 95%;
+    height: 300px;
+  }
+  
+  }
+  
+  
+  
