@@ -97,11 +97,15 @@ header {
   margin: 0;
 }
 
-  .h3home {
-   font: 1.5em bold;
-   color: var(--Blanco);
-   margin: 20px;
-  }
+.nav__dropdown__content {
+  display: none;
+  position: absolute;
+  background-color: #313131;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
 
 .nav__dropdown__content a {
   float: none;
@@ -567,25 +571,24 @@ footer {
   display: flex;
   border-radius: 8%;
   overflow: hidden;
- }
+}
 
- .contact-body {
-   background-color: rgb(0, 0, 0);
- }
+.contact-body {
+  background-color: black;
+}
 
- .info_c {
-   border: 45px solid transparent;
-   
- }
+.info_c {
+  border: 45px solid transparent;
+}
 
- .info_c_title {
-   font-size: 1.2rem;
-   font-weight: 900;
-   white-space: nowrap;
-   color: var(--Blanco);
- }
+.info_c_title {
+  font-size: 1.2rem;
+  font-weight: 900;
+  white-space: nowrap;
+  color: var(--Blanco);
+}
 
- .c_form {
+.c_form {
   width: 100%;
   height: 100%;
   background-color: var(--Blanco);
@@ -633,23 +636,7 @@ footer {
 
 #mensaje_contacto {
   resize: none;
- }
-
-
-
-
- @media (max-width: 768px) {
-  .active {
-    position: absolute;
-    display: flex !important;
-    flex-direction: column;
-    overflow: visible;
-    top: 90px;
-    align-content: space-around;
-    justify-content: space-around;
-    align-items: flex-end;
-    background: black;
-  }
+}
 
 @media (max-width: 768px) {
   .active {
@@ -684,13 +671,11 @@ footer {
     width: 100%;
     background: var(--Gris);
     opacity: .5;
- }
-
+  }
   .wrapHide {
     display: none;
   }
-  
-  .buger-ico {
+  .nav__bugerIco {
     display: block;
     margin-right: 20px;
   }
@@ -723,22 +708,12 @@ footer {
   .tipsgal_container {
     overflow-x: scroll;
   }
-
   .tipsgal_container > * {
     padding: 10px;
   }
-
   .videolist {
     display: none;
   }
-
-  .contact-body {
-    width: fit-content;
-    margin: auto;
-  }
-
-
- 
 }
 
 @media (min-width: 1800px) and (max-width: 2800px) {
