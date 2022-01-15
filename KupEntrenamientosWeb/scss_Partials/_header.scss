@@ -1,15 +1,15 @@
 $colors: (
-      Naranja: rgb(243, 115, 42),
-      Blanco: #ffffff,
-      Negro: #000000,
-      Gris: #313131,
-      Gris2: #1D1C1C,
-     );
+    Naranja: rgb(243, 115, 42),
+    Blanco: #ffffff,
+    Negro: #000000,
+    Gris: #313131,
+    Gris2: #1D1C1C,
+    );
 
-     $Naranja: map-get($colors, $key: Naranja);
-     $Blanco: map-get($colors, $key: Blanco);
-     $Negro: map-get($colors, $key: Negro);
-     $Gris: map-get($colors, $key: Gris);
+    $Naranja: map-get($colors, $key: Naranja);
+    $Blanco: map-get($colors, $key: Blanco);
+    $Negro: map-get($colors, $key: Negro);
+    $Gris: map-get($colors, $key: Gris);
      
 header {
     background-color: $Negro;
@@ -112,8 +112,43 @@ header {
     .nav__dropdown__btn {
         display: flex;
         align-items: center;
-      }
+    }
 
-    
+@mixin header--sm() {
+    .active {
+        position: absolute;
+        display: flex !important;
+        flex-direction: column;
+        overflow: visible;
+        top: 90px;
+        height: 100vh;
+        align-content: space-around;
+        justify-content: space-around;
+        align-items: flex-end;
+        background: black;
+    }
+
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: var(--Gris);
+        opacity: .5;
+    }
+
+    .wrapHide {
+        display: none;
+      }
+      
+    .nav__bugerIco {
+        display: block;
+        margin-right: 20px;
+    }
+}
    
  
