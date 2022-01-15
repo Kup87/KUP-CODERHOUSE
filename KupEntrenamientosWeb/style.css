@@ -97,23 +97,11 @@ header {
   margin: 0;
 }
 
-<<<<<<< HEAD
   .h3home {
    font: 1.5em bold;
    color: var(--Blanco);
    margin: 20px;
   }
-=======
-.nav__dropdown__content {
-  display: none;
-  position: absolute;
-  background-color: #313131;
-  min-width: 160px;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
->>>>>>> test1
 
 .nav__dropdown__content a {
   float: none;
@@ -579,7 +567,6 @@ footer {
   display: flex;
   border-radius: 8%;
   overflow: hidden;
-<<<<<<< HEAD
  }
 
  .contact-body {
@@ -599,26 +586,6 @@ footer {
  }
 
  .c_form {
-=======
-}
-
-.contact-body {
-  background-color: black;
-}
-
-.info_c {
-  border: 45px solid transparent;
-}
-
-.info_c_title {
-  font-size: 1.2rem;
-  font-weight: 900;
-  white-space: nowrap;
-  color: var(--Blanco);
-}
-
-.c_form {
->>>>>>> test1
   width: 100%;
   height: 100%;
   background-color: var(--Blanco);
@@ -666,7 +633,6 @@ footer {
 
 #mensaje_contacto {
   resize: none;
-<<<<<<< HEAD
  }
 
 
@@ -684,9 +650,6 @@ footer {
     align-items: flex-end;
     background: black;
   }
-=======
-}
->>>>>>> test1
 
 @media (max-width: 768px) {
   .active {
@@ -721,7 +684,6 @@ footer {
     width: 100%;
     background: var(--Gris);
     opacity: .5;
-<<<<<<< HEAD
  }
 
   .wrapHide {
@@ -729,13 +691,6 @@ footer {
   }
   
   .buger-ico {
-=======
-  }
-  .wrapHide {
-    display: none;
-  }
-  .nav__bugerIco {
->>>>>>> test1
     display: block;
     margin-right: 20px;
   }
@@ -768,7 +723,6 @@ footer {
   .tipsgal_container {
     overflow-x: scroll;
   }
-<<<<<<< HEAD
 
   .tipsgal_container > * {
     padding: 10px;
@@ -785,14 +739,6 @@ footer {
 
 
  
-=======
-  .tipsgal_container > * {
-    padding: 10px;
-  }
-  .videolist {
-    display: none;
-  }
->>>>>>> test1
 }
 
 @media (min-width: 1800px) and (max-width: 2800px) {
