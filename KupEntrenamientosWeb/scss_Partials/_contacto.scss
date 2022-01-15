@@ -1,0 +1,93 @@
+@mixin widthandborder {
+  width: 100%;
+  border: none;  
+}
+
+%contacttitle {
+  margin-top: 40px;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+
+
+  .contact-title {
+    @extend %contacttitle;
+  }
+  
+   .whole-wrap-contact {
+    background: linear-gradient(rgba(243, 115, 42, .75),rgba(243, 115, 42, .75)), url('assets/img/contactbackground.jpg');
+    background-size: contain;
+    background-repeat: round;
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    display: flex;
+    border-radius: 8%;
+    overflow: hidden;
+   }
+  
+   .contact-body {
+    background-color: rgb(0, 0, 0);
+   }
+  
+   .info_c {
+    border: 45px solid transparent;
+   }
+  
+   .info_c_title {
+    font-size: 1.2rem;
+    font-weight: 900;
+    white-space: nowrap;
+    color: var(--Blanco);
+   }
+  
+   .c_form {
+    width: 100%;
+    height: 100%;
+    background-color: var(--Blanco);
+    border: 45px solid var(--Blanco);
+   }
+   
+   .c_input {
+    margin: 10px 10px 10px 0px;
+    padding: 15px;
+    background-color: rgba(194, 194, 194, .4);
+    @include widthandborder();
+   }
+  
+   .socialMediaIcon_container {
+    margin: 40px 10px 10px -15px;
+   }
+  
+   .socialMediaIcon_container img {
+     height: 1.8em;
+   }
+  
+   .c_btn {
+    @include widthandborder();
+  }
+  
+  .c_send {  
+    width: 100%;
+    background: var(--Naranja);
+    color: var(--Blanco);
+    height: 2.5em;
+    border: 1px solid;
+    border-radius: 6%;
+    font-size: 12px;
+  }
+  
+  .c_send:hover {
+    background: radial-gradient(var(--Naranja), rgb(235, 152, 58));
+  }
+  
+  .c_send:active {
+    background: radial-gradient(var(--Naranja), rgb(240, 140, 25));
+  }
+  
+  #mensaje_contacto {
+    resize: none;
+  }

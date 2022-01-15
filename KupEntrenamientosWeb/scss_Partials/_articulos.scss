@@ -1,0 +1,42 @@
+.articulos {
+    background-image: url('assets/img/articulosBack.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;     
+    height: 560px;
+   }
+ 
+   .articulos_container {
+    padding: 25px;
+   }
+ 
+  .galeria_container {
+    display: flex;
+    color: var(--Blanco);
+    overflow-x: auto;
+ }
+ 
+ .galeria_container a{
+   color: var(--Blanco);
+   margin: 20px;
+ }
+ 
+ 
+ .gal_img {
+   width: 300px;
+   height: 300px;
+  /* animation: GaleriaRtoL 3s; */
+ }
+ 
+ .gal_img_f1 {
+   height: inherit;
+ }
+ 
+ @keyframes GaleriaRtoL {
+   from {
+     margin-left: 1000px;
+   }
+   to {
+     margin-left: 0;
+   }
+ }
+ 

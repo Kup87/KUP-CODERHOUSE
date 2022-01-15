@@ -1,0 +1,63 @@
+.tips {
+    background-image: url('assets/img/tipsbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;     
+    height: max-content;
+    padding: 12px;
+    overflow: hidden;
+   }
+
+   .tip {
+    text-align: center;
+  }
+
+  .tips_container {
+    padding: 25px;
+   }
+
+   .tipsgal_container {
+    display: flex;
+   
+  }
+
+  .tips_container a{
+    color: var(--Blanco);
+  }
+
+  .tip_img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .searchtip {
+    text-align: center;
+  }
+  
+   .svgTip {
+     filter: initial;
+   }
+  
+  .videos_container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .videos {
+    background-color: var(--Negro);
+    background-size: cover;
+    background-repeat: no-repeat;     
+    height: max-content;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+   .videos iframe {
+     margin: 20px;
+   }
+  
+   .videolist {
+     background-color: var(--Gris);
+     width: 250px;
+     height: 500px;
+     overflow-y: scroll;
+   }

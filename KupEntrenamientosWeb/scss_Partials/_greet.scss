@@ -1,0 +1,23 @@
+.greet {
+    background-image: url('assets/img/greetBack.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .h1home {
+    color: var(--Blanco);
+    font: 50px bold;
+    text-align: center;
+    margin:  0px 20px 20px 20px;
+  }
+
+  .h3home {
+   font: 30px bold;
+   color: var(--Blanco);
+   margin: 20px;
+  }

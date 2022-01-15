@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--Negro);
+    box-shadow: inset 0 0 10px var(--Naranja);
+  }
+  .logoFooter {
+    position: relative;
+   }
+  
+  .socialmedia-container {
+    display: flex;
+      width: 35%;
+      margin-right: 10px;
+      justify-content: space-around;
+      align-items: center;
+  }
+  
+  .homefooter {
+    filter: invert(73%) sepia(44%) saturate(7463%) hue-rotate(344deg) brightness(99%) contrast(92%);
+  }

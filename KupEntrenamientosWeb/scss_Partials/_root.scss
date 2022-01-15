@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+   :root {
+    --Naranja: rgb(243, 115, 42);
+    --Blanco: #ffffff;
+    --Negro: #000000;
+    --Gris: #313131;
+    --Gris2: #1D1C1C;
+   }
+
+  
+    body {
+      font-family: 'Nunito Sans', sans-serif;
+      
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    $colors: (
+      Naranja: rgb(243, 115, 42),
+      Blanco: #ffffff,
+      Negro: #000000,
+      Gris: #313131,
+      Gris2: #1D1C1C,
+     );
+
+     $Naranja: map-get($colors, $key: Naranja);
+     $Blanco: map-get($colors, $key: Blanco);
+     $Negro: map-get($colors, $key: Negro);
+     $Gris: map-get($colors, $key: Gris);
+     $Gris2: map-get($colors, $key: Gris2);
