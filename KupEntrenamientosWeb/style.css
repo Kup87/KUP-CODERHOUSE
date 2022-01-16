@@ -527,6 +527,16 @@ footer {
   text-align: center;
 }
 
+.search2 {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #f3732a;
+  margin: 10px;
+  margin-bottom: 18px;
+  -webkit-box-shadow: 0 15px 28px 2px var(--Negro);
+          box-shadow: 0 15px 28px 2px var(--Negro);
+}
+
 .svgTip {
   -webkit-filter: initial;
           filter: initial;
