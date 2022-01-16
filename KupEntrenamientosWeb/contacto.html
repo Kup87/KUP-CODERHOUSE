@@ -74,22 +74,24 @@
                     </a>
                 </div>
             </div>
-
+            <form action="https://formsubmit.co/kup.entrenamientos@gmail.com" method="POST" enctype="text/plain" name="contact_form">
             <div class="c_form">
                 <div class="c_form_input">
-                    <input type="text" class="c_input" placeholder="Nombre">
+                    <input type="text" name="name" class="c_input" placeholder="Nombre" required>
                 </div>
                 <div class="c_form_input">
-                    <input type="email" class="c_input" placeholder="Email">
+                    <input type="email" name="email" class="c_input" placeholder="Email" required>
                 </div>
                 <div class="c_form_input c_mensaje">
                     <textarea name="mensaje_contacto" class="c_input" id="mensaje_contacto" cols="30" rows="10"
-                        placeholder="Escribinos tu consulta!"></textarea>
+                        placeholder="Escribinos tu consulta!" required></textarea>
                 </div>
+                <input type="text" class="honeypot_" name="_honey" style="display:none">
                 <div class="c_form_input c_btn">
                     <button class="c_send">ENVIAR</button>
                 </div>
             </div>
+            </form>
 
 
         </div>
