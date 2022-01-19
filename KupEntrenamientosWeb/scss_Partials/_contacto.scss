@@ -56,6 +56,7 @@
     padding: 15px;
     background-color: rgba(194, 194, 194, .4);
     @include widthandborder();
+    
    }
   
    .socialMediaIcon_container {
@@ -90,6 +91,7 @@
   
   #mensaje_contacto {
     resize: none;
+    border-radius: 8%;
   }
 
   .honeypot_{

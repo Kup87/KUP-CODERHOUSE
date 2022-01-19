@@ -209,8 +209,17 @@ header {
   /* animation: GaleriaRtoL 3s; */
 }
 
+.gal__shadow {
+  -webkit-box-shadow: black 0px 5px 15px;
+          box-shadow: black 0px 5px 15px;
+}
+
 .gal_img_f1 {
   height: inherit;
+}
+
+.img_title {
+  font-size: calc(.9rem + .6vw);
 }
 
 @-webkit-keyframes GaleriaRtoL {
@@ -687,6 +696,7 @@ footer {
 
 #mensaje_contacto {
   resize: none;
+  border-radius: 8%;
 }
 
 .honeypot_ {
