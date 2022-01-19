@@ -66,11 +66,13 @@ header {
 }
 
 .nav__search {
+  color: #ffffff;
   background-color: #000000;
   border: none;
   border-bottom: 1px solid #f3732a;
   margin: 10px;
   margin-bottom: 18px;
+  padding-left: 2px;
 }
 
 .nav__searchsvg {
