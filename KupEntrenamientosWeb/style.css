@@ -82,6 +82,7 @@ header {
 
 .nav__bugerIco {
   display: none;
+  height: 20px;
 }
 
 .nav__container a:hover, .nav__dropdown:hover .nav__dropdown__btn {
@@ -209,8 +210,17 @@ header {
   /* animation: GaleriaRtoL 3s; */
 }
 
+.gal__shadow {
+  -webkit-box-shadow: black 0px 5px 15px;
+          box-shadow: black 0px 5px 15px;
+}
+
 .gal_img_f1 {
   height: inherit;
+}
+
+.img_title {
+  font-size: calc(.9rem + .6vw);
 }
 
 @-webkit-keyframes GaleriaRtoL {
@@ -491,6 +501,10 @@ footer {
           filter: invert(73%) sepia(44%) saturate(7463%) hue-rotate(344deg) brightness(99%) contrast(92%);
 }
 
+.homefooter__svg {
+  height: 25px;
+}
+
 .tips {
   background-image: url("assets/img/tipsbackground.jpg");
   background-size: cover;
@@ -687,6 +701,7 @@ footer {
 
 #mensaje_contacto {
   resize: none;
+  border-radius: 8%;
 }
 
 .honeypot_ {
