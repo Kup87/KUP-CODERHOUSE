@@ -1,82 +1,94 @@
 .tips {
-    background-image: url('assets/img/tipsbackground.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;     
-    height: max-content;
-    padding: 12px;
-    overflow: hidden;
+  background-image: url('assets/img/tipsbackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;     
+  height: max-content;
+  padding: 12px;
+  overflow: hidden;
 }
 
-  .tip {
-    text-align: center;
-  }
+.anchorCorrection {
+  display: block;
+  visibility: hidden;
+  height: 100px;
+  margin-top: -100px;  
+}
 
-  .tips_container {
-    padding: 25px;
-  }
+.tip {
+  text-align: center;
+}
 
-  .tipsgal_container {
-    display: flex;
-   
-  }
-
-  .tips_container a{
-    color: var(--Blanco);
-  }
-
-  .tip_img {
-    width: 150px;
-    height: 150px;
-  }
-
-  .searchtip {
-    text-align: center;
-  }
-
-  .search2 {
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid $Naranja;
-    margin: 10px; 
-    margin-bottom: 18px;
-    box-shadow: 0 15px 28px 2px var(--Negro);
-    padding: 2px;
-  }
+.tips_container {
+  padding: 25px;
   
-   .svgTip {
-     filter: initial;
-   }
-  
-  .videos_container {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .videos {
-    background-color: var(--Negro);
-    background-size: cover;
-    background-repeat: no-repeat;     
-    height: max-content;
-    padding: 10px;
-    overflow: hidden;
-  }
-  
-  .videos iframe {
-    margin: 20px;
-  }
-  
-  .videolist {
-    background-image: url('assets/img/adnytbanner.jpg');
-    margin-top: 20px;
-    width: 250px;
-    height: 450px;
-    overflow: hidden;
-  }
+}
 
-  .videolist2 {
-    background-image: url('assets/img/bannerHorizontalYTadn.jpg');
-    display: none;
-    height: 150px;
-    width: 95%;
-    margin: 10px 0 0px 20px;
-  }
+.tipsgal_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tips_container a{
+  color: var(--Blanco);
+}
+
+.tip_img {
+  width: 150px;
+  height: 150px;
+}
+
+.tip__pie {
+  max-width: 155px;
+}
+
+.searchtip {
+  text-align: center;
+}
+
+.search2 {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid $Naranja;
+  margin: 10px; 
+  margin-bottom: 18px;
+  box-shadow: 0 15px 28px 2px var(--Negro);
+  padding: 2px;
+}
+  
+.svgTip {
+  filter: initial;
+}
+  
+.videos_container {
+  display: flex;
+  justify-content: space-around;
+}
+  
+.videos {
+  background-color: var(--Negro);
+  background-size: cover;
+  background-repeat: no-repeat;     
+  height: max-content;
+  padding: 10px;
+  overflow: hidden;
+}
+  
+.videos iframe {
+  margin: 20px;
+}
+  
+.videolist {
+  background-image: url('assets/img/adnytbanner.jpg');
+  margin-top: 20px;
+  width: 250px;
+  height: 450px;
+  overflow: hidden;
+}
+
+.videolist2 {
+  background-image: url('assets/img/bannerHorizontalYTadn.jpg');
+  display: none;
+  height: 150px;
+  width: 95%;
+  margin: 10px 0 0px 20px;
+}

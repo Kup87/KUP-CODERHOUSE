@@ -502,6 +502,13 @@ footer {
   overflow: hidden;
 }
 
+.anchorCorrection {
+  display: block;
+  visibility: hidden;
+  height: 100px;
+  margin-top: -100px;
+}
+
 .tip {
   text-align: center;
 }
@@ -514,6 +521,8 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .tips_container a {
@@ -523,6 +532,10 @@ footer {
 .tip_img {
   width: 150px;
   height: 150px;
+}
+
+.tip__pie {
+  max-width: 155px;
 }
 
 .searchtip {
