@@ -82,6 +82,7 @@ header {
 
 .nav__bugerIco {
   display: none;
+  height: 20px;
 }
 
 .nav__container a:hover, .nav__dropdown:hover .nav__dropdown__btn {
@@ -498,6 +499,10 @@ footer {
 .homefooter {
   -webkit-filter: invert(73%) sepia(44%) saturate(7463%) hue-rotate(344deg) brightness(99%) contrast(92%);
           filter: invert(73%) sepia(44%) saturate(7463%) hue-rotate(344deg) brightness(99%) contrast(92%);
+}
+
+.homefooter__svg {
+  height: 25px;
 }
 
 .tips {
