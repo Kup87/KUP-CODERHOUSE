@@ -565,6 +565,22 @@ footer {
   margin: 20px;
 }
 
+.videolist {
+  background-image: url("assets/img/adnytbanner.jpg");
+  margin-top: 20px;
+  width: 250px;
+  height: 450px;
+  overflow: hidden;
+}
+
+.videolist2 {
+  background-image: url("assets/img/bannerHorizontalYTadn.jpg");
+  display: none;
+  height: 150px;
+  width: 95%;
+  margin: 10px 0 0px 20px;
+}
+
 .contact-title {
   margin-top: 40px;
   font-weight: 900;
@@ -736,6 +752,9 @@ footer {
   }
   .videolist {
     display: none;
+  }
+  .videolist2 {
+    display: block;
   }
 }
 
