@@ -689,7 +689,7 @@ footer {
             flex-direction: column;
     overflow: visible;
     top: 90px;
-    height: 100vh;
+    height: 90vh;
     -ms-flex-line-pack: distribute;
         align-content: space-around;
     -ms-flex-pack: distribute;
