@@ -565,13 +565,6 @@ footer {
   margin: 20px;
 }
 
-.videolist {
-  background-color: var(--Gris);
-  width: 250px;
-  height: 500px;
-  overflow-y: scroll;
-}
-
 .contact-title {
   margin-top: 40px;
   font-weight: 900;

@@ -3,22 +3,23 @@
     background-size: cover;
     background-repeat: no-repeat;     
     height: 560px;
-   }
+}
  
-   .articulos_container {
+  .articulos_container {
     padding: 25px;
-   }
+  }
  
   .galeria_container {
     display: flex;
     color: var(--Blanco);
     overflow-x: auto;
-    
- }
- .galeria_container::-webkit-scrollbar {
-  width: 1em;
-  height: .5em;
-}
+  }
+
+  .galeria_container::-webkit-scrollbar {
+    width: 1em;
+    height: .5em;
+  }
+  
 .galeria_container::-webkit-scrollbar-thumb {
   background: var(--Naranja);
   border-radius: 10px;
