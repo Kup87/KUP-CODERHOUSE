@@ -885,6 +885,9 @@ footer {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  .nav__search {
+    font-size: 2em;
+  }
   .nav__dropdown__btn {
     font-size: 3em !important;
   }
