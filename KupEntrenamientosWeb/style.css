@@ -973,8 +973,14 @@ footer {
             align-items: center;
   }
   .videolist {
-    width: 95%;
-    height: 300px;
+    display: none;
+  }
+  .videolist2 {
+    display: block;
+    width: 98vw;
+    height: 12vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
