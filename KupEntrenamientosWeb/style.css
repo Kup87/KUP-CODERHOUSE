@@ -149,6 +149,9 @@ header {
           align-items: center;
   height: 500px;
   overflow: hidden;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .h1home {
@@ -223,6 +226,11 @@ header {
   font-size: calc(.9rem + .6vw);
 }
 
+.cuadro {
+  text-align: center;
+  text-align: -webkit-center;
+}
+
 @-webkit-keyframes GaleriaRtoL {
   from {
     margin-left: 1000px;
@@ -266,6 +274,10 @@ header {
   grid-row-gap: 10px;
   padding: 10px;
   height: 650px;
+}
+
+.nosotros_img_container {
+  text-align: center;
 }
 
 .nosotros_img_container > img {
@@ -802,6 +814,15 @@ footer {
   .wrapHide > a {
     font-size: 3em;
   }
+  .wrapHide {
+    width: 60vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   .nav__dropdown__btn {
     font-size: 3em !important;
   }
@@ -815,11 +836,16 @@ footer {
     width: .5em !important;
   }
   .galeria_container {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr);
   }
   .servicioST {
     font-size: 2.3em;
+  }
+  .nosotros_img_container {
+    text-align: center;
   }
   .servicioP, .sobremiul, .sobremi-p, .nombreynick {
     font-size: 1.3em;
@@ -848,6 +874,15 @@ footer {
   .wrapHide > a {
     font-size: 3em;
   }
+  .wrapHide {
+    width: 60vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   .nav__dropdown__btn {
     font-size: 3em !important;
   }
@@ -867,8 +902,10 @@ footer {
     width: .5em !important;
   }
   .galeria_container {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr);
   }
   .servicioST {
     font-size: 4em;
@@ -912,6 +949,7 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    text-align: center;
   }
   .tipsgal_container {
     display: -webkit-box;

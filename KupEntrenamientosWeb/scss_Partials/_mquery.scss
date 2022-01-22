@@ -50,138 +50,160 @@
     display: block;
   }
   
+}
+  
+@media (min-width: 1800px) and (max-width: 2800px) {
+  
+  .nav__container {
+    height: 150px;
   }
   
-  @media (min-width: 1800px) and (max-width: 2800px) {
+  .nav__container a{
+    font-size: 3em;
+  }
   
-    .nav__container {
-      height: 150px;
-    }
+  .Logo {
+    width: 15em;
+  }
   
-    .nav__container a{
-      font-size: 3em;
-    }
+  .wrapHide > a {
+    font-size: 3em;
+  }
+
+  .wrapHide {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav__dropdown__btn {
+    font-size: 3em !important;
+  }
   
-    .Logo {
-      width: 15em;
-    }
+  .nav__searchsvg {
+    width: 2em;
+  }
   
-    .wrapHide > a {
-      font-size: 3em;
-    }
-    .nav__dropdown__btn {
-      font-size: 3em !important;
-    }
+  .h1home {
+    font: 5em bold;
+  }
+
+  .svgArt {
+    width: .5em !important;
+  }
   
-    .nav__searchsvg {
-      width: 2em;
-    }
+  .galeria_container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
   
-    .h1home {
-      font: 5em bold;
-    }
-    .svgArt {
-      width: .5em !important;
-    }
+  .servicioST {
+    font-size: 2.3em;
+  }
+
+  .nosotros_img_container {
+    text-align: center;
+  }
   
-    .galeria_container {
-      justify-content: space-around;
-    }
+  .servicioP, .sobremiul, .sobremi-p, .nombreynick {
+    font-size: 1.3em;
+  }
   
-    .servicioST {
-      font-size: 2.3em;
-    }
-  
-    .servicioP, .sobremiul, .sobremi-p, .nombreynick {
-      font-size: 1.3em;
-    }
-  
-    .socialMediaIcon_container img {
-      height: inherit;
+  .socialMediaIcon_container img {
+    height: inherit;
   }
   
   .svgTip {
     width: 2em;
   }
   
-   .info_c_title, .c_input, .c_send {
-     font-size: 2em;
-   }
-    
+  .info_c_title, .c_input, .c_send {
+    font-size: 2em;
   }
+    
+}
   
   @media (min-width: 2801px) {
   
-    .nav__container {
-      height: 150px;
-    }
+  .nav__container {
+    height: 150px;
+  }
   
-    .nav__container a{
-      font-size: 3em;
-    }
+  .nav__container a{
+    font-size: 3em;
+  }
   
-    .Logo {
-      width: 15em;
-    }
+  .Logo {
+    width: 15em;
+  }
   
-    .wrapHide > a {
-      font-size: 3em;
-    }
-    .nav__dropdown__btn {
-      font-size: 3em !important;
-    }
+  .wrapHide > a {
+    font-size: 3em;
+  }
+
+  .wrapHide {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav__dropdown__btn {
+    font-size: 3em !important;
+  }
   
-    .nav__searchsvg {
-      width: 2em;
-    }
+  .nav__searchsvg {
+    width: 2em;
+  }
+ 
+  .h1home {
+    font: 6em bold;
+  }
   
-    .h1home {
-      font: 6em bold;
-    }
+  .h3home {
+    font: 4em bold;
+  }
   
-    .h3home {
-      font: 4em bold;
-    }
+  .greet_container {
+    margin: auto;
+  }
+
+  .svgArt {
+    width: .5em !important;
+  }
   
-    .greet_container {
-      margin: auto;
-    }
-    .svgArt {
-      width: .5em !important;
-    }
+  .galeria_container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
   
-    .galeria_container {
-      justify-content: space-around;
-    }
+  .servicioST {
+    font-size: 4em;
+  }
   
-    .servicioST {
-      font-size: 4em;
-    }
+  .servicioP, .sobremiul, .sobremi-p, .nombreynick {
+    font-size: 2em;
+  }
   
-    .servicioP, .sobremiul, .sobremi-p, .nombreynick {
-      font-size: 2em;
-    }
+  .nosotros_container {
+    height: inherit;
+  }
   
-    .nosotros_container {
-      height: inherit;
-    }
+  .number_container {
+    width: 9rem;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
-    .number_container {
-      width: 9rem;
-      height: 9rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+  .number {
+    font-size: 4.5em;
+  }
   
-    .number {
-      font-size: 4.5em;
-    }
-  
-    .socialMediaIcon_container img {
+  .socialMediaIcon_container img {
     height: 6em;
     margin: 2em;
-    }  
+  }  
     
   .svgTip {
     width: 2em;
@@ -194,8 +216,9 @@
   .nosotros_img_container {
     display: flex;
     justify-content: center;
+    text-align: center;
   }
-  
+
   .tipsgal_container {
     display: flex;
     justify-content: space-around;
@@ -212,7 +235,7 @@
     height: 300px;
   }
   
-  }
+}
   
   
   
