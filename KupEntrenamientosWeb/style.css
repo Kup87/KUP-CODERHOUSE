@@ -78,6 +78,8 @@ header {
 .nav__searchsvg {
   margin-bottom: 20px;
   width: 16px;
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
 
 .nav__bugerIco {
