@@ -828,6 +828,9 @@ footer {
   .nav__dropdown__btn {
     font-size: 3em !important;
   }
+  .nav__search {
+    font-size: 2em;
+  }
   .nav__searchsvg {
     width: 2em;
   }
